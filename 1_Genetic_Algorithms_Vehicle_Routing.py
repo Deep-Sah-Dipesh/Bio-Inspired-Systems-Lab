@@ -1,3 +1,4 @@
+#Lab-1
 import random
 
 def fitness(path, distance_matrix):
@@ -50,6 +51,9 @@ POPULATION_SIZE = 10
 GENERATIONS = 20
 MUTATION_RATE = 0.3
 
+print("1BM22CS092\t\t Dipesh Sah")
+print("Lab Experiment-1")
+print("Implementation of Vehicle Routing Using Genetic Algorithms.\n")
 num_locations = int(input("Enter the number of locations (including depot): "))
 distance_matrix = []
 

@@ -1,3 +1,4 @@
+#Lab-3
 import numpy as np
 
 def euclidean_distance(city1, city2):
@@ -61,6 +62,10 @@ def ant_colony_optimization(cities, num_ants, alpha, beta, rho, pheromone_init, 
                 pheromones[route[i]][route[i + 1]] += 1 / distance
 
     return best_route, best_distance
+
+print("1BM22CS092\t\t Dipesh Sah")
+print("Lab Experiment-3")
+print("Implementation of Traveling Salesman Problem Using Ant Colony Optimization.\n")
 
 num_cities = int(input("Enter the number of cities: "))
 cities = []

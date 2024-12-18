@@ -1,3 +1,4 @@
+#Lab-4
 import numpy as np
 
 def fitness_function(path, obstacles, target):
@@ -53,6 +54,10 @@ def cuckoo_search_robot(num_nests, max_iter, waypoints, lower_bound, upper_bound
             fitness[idx] = fitness_function(np.vstack([start, nests[idx], target]), obstacles, target)
 
     return best_nest, best_fitness
+
+print("1BM22CS092\t\t Dipesh Sah")
+print("Lab Experiment-4")
+print("Implementation of Robot Motion Planning for finding \nthe most efficient paths Using Cuckoo Search.\n")
 
 num_nests = int(input("Enter the number of nests: "))
 max_iter = int(input("Enter the number of iterations: "))
